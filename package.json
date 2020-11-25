@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "netlify-lambda build functions/",
+    "serve": "netlify-lambda serve functions/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kflange/example-netlify-function/issues"
   },
-  "homepage": "https://github.com/kflange/example-netlify-function#readme"
+  "homepage": "https://github.com/kflange/example-netlify-function#readme",
+  "dependencies": {
+    "netlify-lambda": "^2.0.1"
+  }
 }
